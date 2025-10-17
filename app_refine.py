@@ -18,13 +18,13 @@ size = (768, 768)
 pipe = FluxFillPipeline.from_pretrained(
     "black-forest-labs/FLUX.1-Fill-dev",
     torch_dtype=dtype
-).to("cpu")
+).to("cuda")
 
 pipe.load_lora_weights(
     "WensongSong/Insert-Anything"
 )
 
-redux = FluxPriorReduxPipeline.from_pretrained("black-forest-labs/FLUX.1-Redux-dev").to(dtype=dtype).to("cpu")
+redux = FluxPriorReduxPipeline.from_pretrained("black-forest-labs/FLUX.1-Redux-dev").to(dtype=dtype).to("cuda")
 
 ref_dir='assert/'
 ref_mask_dir='assert/'
