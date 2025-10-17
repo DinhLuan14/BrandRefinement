@@ -1,7 +1,5 @@
 # BrandRefinement
 
-AI-powered brand product customization and refinement system for creating high-quality advertising images.
-
 ## Overview
 
 BrandRefinement is a two-stage pipeline that helps generate and refine brand product images for advertising purposes. The system combines:
@@ -11,23 +9,13 @@ BrandRefinement is a two-stage pipeline that helps generate and refine brand pro
 
 ## Installation
 
-### 1. Clone the repository
-
 ```bash
 git clone https://github.com/DinhLuan14/BrandRefinement.git
 cd BrandRefinement
-```
 
-### 2. Create conda environment
-
-```bash
 conda create --name brandrefine python=3.10
 conda activate brandrefine
-```
 
-### 3. Install dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
