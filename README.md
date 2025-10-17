@@ -1,5 +1,7 @@
 # BrandRefinement
 
+![BrandRefinement](assert/demo.png)
+
 ## Overview
 
 BrandRefinement is a two-stage pipeline that helps generate and refine brand product images for advertising purposes. The system combines:
