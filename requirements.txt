@@ -1,0 +1,22 @@
+opencv-python
+protobuf
+bezier
+lightning==2.5.1
+datasets
+prodigyopt
+scipy
+torch==2.6.0
+torchvision==0.21.0
+optimum-quanto==0.2.7
+einops
+timm
+diffusers==0.33.1
+transformers==4.45.2
+sentencepiece
+# gradio==3.50.2 # for draw mask
+gradio==5.24.0 # for refinestage
+spaces
+huggingface_hub
+accelerate==0.32.0
+peft
+git+https://github.com/ToTheBeginning/facexlib.git
